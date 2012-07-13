@@ -8,3 +8,8 @@ rand_flip : rand_flip.c
 
 clean:
 	rm monitor rand_flip
+
+log:
+	rm -f time
+	rm -f checklog
+	rm -f result
